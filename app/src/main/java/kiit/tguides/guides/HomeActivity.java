@@ -79,7 +79,7 @@ public class HomeActivity extends AppCompatActivity  {
             textSliderView.getBundle()
 
                     .putString("extra",name);
-            String str="hello";
+            String str="hello"+"worl";
 
             sliderLayout.addSlider(textSliderView);
             sliderLayout.setPresetTransformer(SliderLayout.Transformer.Fade);
